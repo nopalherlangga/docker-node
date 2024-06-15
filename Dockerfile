@@ -1,5 +1,4 @@
-ARG NODE_VERSION=22
-FROM node:${NODE_VERSION}
+FROM node:22
 
 WORKDIR /var/app
 
