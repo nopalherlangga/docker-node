@@ -4,4 +4,4 @@ WORKDIR /var/app
 
 RUN node -v
 
-CMD ["node"]
+CMD ["node", "/var/app/index.js"]
