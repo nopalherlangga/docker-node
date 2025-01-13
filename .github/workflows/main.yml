@@ -7,7 +7,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: npzy/node-discord
+  IMAGE_NAME: npzy/node
   IMAGE_TAG: ${{ github.sha }}
   DOCKER_BUILDKIT: 1
 
